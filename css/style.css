@@ -1,0 +1,101 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+body{
+    font: 1.6rem "Roboto",sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+
+}
+p, ul, ol, h1, h2, h3, address{
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a,abbr{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+/* scroll bars */
+*{
+    /* For FF and non-webkit browsers */
+    scrollbar-width: thin;
+    scrollbar-color: #000 #FFF;
+}
+*::-webkit-scrollbar {
+    width: .5rem;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #222;
+    outline: .1rem solid #333;
+}
+/*form*/
+header h1{
+
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: rgb(145, 145, 145);
+    
+}
+header h1 span{
+    color: #000 ;
+}
+fieldset{
+    max-width: 35rem;
+    background-color:  #fafafa;
+    margin: 0 auto;
+}
+.insta{
+    display: block;
+    margin: 0 auto;
+    max-width: 18rem;    
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+main .form{
+    
+    display: block;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    
+}
+.icon_fb{
+    max-width: 1.2rem;
+}
+.form p{
+    text-align: center;
+}
+
+main section a, .form input[type="submit"]{
+    margin: 1.0rem auto;
+    background-color:rgb(5, 184, 255);
+    color: #FFF;
+    border: none;
+    
+}
+
+.form .success{
+    background-color: rgb(36, 153, 20);
+    display: block;
+}
+
+.form input, .form label{
+    display: block;
+    width: 100%;
+    line-height: 4.5rem;
+}
+.form input[placeholder], input[type="submit"]{
+    font-size: inherit;
+}
+
+footer *{
+    text-align: center;
+}
