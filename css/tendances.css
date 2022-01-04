@@ -36,7 +36,6 @@ a,abbr{
 }
 /*form*/
 header h1{
-
     padding-top: 5rem;
     padding-bottom: 5rem;
     text-align: center;
@@ -48,6 +47,10 @@ header h1{
 header h1 span{
     color: #000 ;
 }
+footer *{
+    text-align: center;
+}
+/*instagram*/
 fieldset{
     max-width: 35rem;
     background-color:  #ffffff;
@@ -55,77 +58,18 @@ fieldset{
     border: solid 0.15rem;
     border-color: #dbdbdb;
 }
+fieldset h1{
+    text-align: center;
+    color: rgb(0, 148, 0);
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
 .insta{
     display: block;
     margin: 0 auto;
     max-width: 18rem;    
     padding-top: 2rem;
-    padding-bottom: 3rem;
-}
-main .form{
-    
-    display: block;
-    margin: 0 auto;
-    font-size: 1.4rem;
-    
-    
-}
-.form input{
-    background-color: #fafafa;
-    border: solid 0.15rem;
-    border-color: #dbdbdb;
-    border-radius: 0.3rem;
-    margin: 1rem auto;
-    padding-left: 1rem;
-}
-
-.icon_fb{
-    max-width: 1.2rem;
-}
-.form ul{
-    text-align: center;
-    color: #003b72;
-    padding-top: 2rem;
-    
-}
-.form hr{
-    height: .1rem;
-    background-color: #616161;
-    border: none;
-}
-.ou{
-    text-align: center;
-    transform: translateY(1.7rem);
-    margin: 0rem auto;
-    background-color: #fff;
-    width: 3.5rem;
-    color: #8d8d8d;    
-}
-
-.form input[type="submit"]{
-    background-color:#3897f0;
-    color: #FFF;
-    border: none;
-    
-}
-.form .error{
-    color: red;
-    display: block;
-    text-align: center;
-}
-.form .success{
-    color: green;
-    display: block;
-    text-align: center;
-}
-
-.form input, .form label{
-    display: block;
-    width: 100%;
-    line-height: 4.5rem;
-}
-.form input[placeholder], input[type="submit"]{
-    font-size: inherit;
+    padding-bottom: 1.2rem;
 }
 .compte{
     text-align: center;
@@ -136,16 +80,51 @@ main .form{
     margin: .9rem auto;
     max-width: 35rem;
     padding: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
-section ul li{
+/*tendances*/
+.tendances ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+}
+.tendances img{
+    display: block;
+    max-width: 20rem;
+    border: solid .1rem;
+    border-color: #292929;
+    
+}
+.tendances{
+    margin: 0 auto;
+    max-width: 60rem; 
+}
+.tendances h2{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #292929;
+    color: #cacaca;
+    line-height: 3.5rem;
+}
+.tendances p img{
+    border: none;
+    max-width: 2rem;
+    
+        
+}
+.tendances h2::before{
+    content: url(/asset/Instagram_icon-icons.com_66804.png);
+    position: relative;
+    top: .6rem
+
+
+}
+/*google-apple*/
+.GoogleApple ul li{
     margin: 2rem auto;
     text-align: center;
     display: block;
+    
 }
-section ul li img{
+.GoogleApple ul li img{
     max-width: 13rem;
-}
-footer *{
-    text-align: center;
 }
