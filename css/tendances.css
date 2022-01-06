@@ -58,7 +58,7 @@ fieldset{
     border: solid 0.15rem;
     border-color: #dbdbdb;
 }
-fieldset h1{
+fieldset h2{
     text-align: center;
     color: rgb(0, 148, 0);
     font-size: 1.8rem;
@@ -114,17 +114,19 @@ fieldset h1{
 .tendances h2::before{
     content: url(/asset/Instagram_icon-icons.com_66804.png);
     position: relative;
-    top: .6rem
-
-
+    top: .6rem;
 }
 /*google-apple*/
 .GoogleApple ul li{
     margin: 2rem auto;
     text-align: center;
     display: block;
-    
+    font-size: 1rem;    
 }
+.GoogleApple ul li h2{
+    font-weight: lighter;
+}
+
 .GoogleApple ul li img{
     max-width: 13rem;
 }
