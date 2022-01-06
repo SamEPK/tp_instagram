@@ -100,17 +100,18 @@ fieldset h2{
 }
 .tendances h2{
     font-size: 2rem;
+    font-weight: lighter;
     text-align: center;
     background-color: #292929;
     color: #cacaca;
-    line-height: 3.5rem;
+    line-height: 3.8rem;
 }
-.tendances p img{
+/* .tendances p img{
     border: none;
     max-width: 2rem;
     
         
-}
+} */
 .tendances h2::before{
     content: url(/asset/Instagram_icon-icons.com_66804.png);
     position: relative;
