@@ -86,6 +86,7 @@ fieldset h2{
 .tendances ul{
     display: grid;
     grid-template-columns: repeat(3,1fr); 
+    
 }
 .tendances img{
     display: block;
@@ -106,12 +107,11 @@ fieldset h2{
     color: #cacaca;
     line-height: 3.8rem;
 }
-/* .tendances p img{
-    border: none;
-    max-width: 2rem;
+.tendances  img{
     
+    max-width: 100%;
         
-} */
+}
 .tendances h2::before{
     content: url(/asset/Instagram_icon-icons.com_66804.png);
     position: relative;
